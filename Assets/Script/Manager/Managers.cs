@@ -7,7 +7,7 @@ public class Managers : MonoBehaviour
 
     static Managers s_instance; // 유일함
     static Managers Instance { get {Init();  return s_instance; } } // 프로퍼티 사용
-    // Start is called before the first frame update
+
 
     InputManager _input = new InputManager();
     ResourceManager _resource = new ResourceManager();
