@@ -55,6 +55,11 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("speed", _speed);
     }
 
+    void OnRunEvent()
+    {
+        Debug.Log("ddobug");
+    }
+
     void UpdateIdle()
     {
         Animator anim = GetComponent<Animator>();
