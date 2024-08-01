@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour
         //Managers.Input.KeyAction += OnKeyboard;
         Managers.Input.MouseAction -= OnMouseClicked;
         Managers.Input.MouseAction += OnMouseClicked;
+
+
     }
 
     //state pattern
@@ -30,7 +32,7 @@ public class PlayerController : MonoBehaviour
 
     void UpdateDie()
     {
-        
+        // ¾Æ¹«°Íµµ ¸øÇÏ°Ô
     }
 
     void UpdateMoving()
@@ -57,7 +59,7 @@ public class PlayerController : MonoBehaviour
 
     void OnRunEvent()
     {
-        Debug.Log("ddobug");
+        Debug.Log("¶Ñ¹÷¶Ñ¹÷");
     }
 
     void UpdateIdle()
